@@ -1,5 +1,6 @@
 # Compiled class files 
 Sequence.class
+Book.class
 
 # Compiler class files which inherit Sequence class
 PeriodicSequence.class

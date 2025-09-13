@@ -26,19 +26,37 @@ This project demonstrates core **OOP concepts** in Java:
    - default (periodic rows)  
    - with 3 columns
 
+## Project 2
+A simple Java program to demonstrate **basic OOP concepts**.  
+
+## ✨ Features
+- Four private attributes: `id`, `ISBN`, `category`, `name`  
+- Static field `lastID` to auto-generate unique IDs  
+- Methods:  
+  - `getID()` → returns book ID  
+  - `setName(String)` → updates book name  
+  - `toString()` → nicely prints details  
+  - `dumpString()` → exports data as `$$`-separated string  
+  - `createBook(String)` → creates a `Book` from dump string 
+
 
 ...
 
 
 Folder Structure : 
 
-    OOPS-in-java
-    |
-    |--Project1
-         |
-         |--Question.pdf
-         |--Sequence.java
-         |--PeriodicSequence.java
-         |--Output.png
-
+   OOPS-in-java
+      |
+      |--Project1
+      |     |
+      |     |--Question.pdf
+      |     |--Sequence.java
+      |     |--PeriodicSequence.java
+      |     |--Output.png
+      |
+      |--Project2
+            |
+            |--Question.pdf
+            |--Book.java
+            |--Output.png
 </pre>
